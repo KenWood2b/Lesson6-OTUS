@@ -6,11 +6,11 @@ namespace Animations
     [RequireComponent(typeof(Animator))]
     public sealed class TakeDamageAnimatorTrigger : MonoBehaviour
     {
-        [SerializeField] private HealthComponent healthComponent;
 
         /*
          * Должен управлять анимационным событием получения урона
          */
+        [SerializeField] private HealthComponent healthComponent;
         private Animator _animator;
 
         private static readonly int TakeDamage = Animator.StringToHash("TakeDamage");

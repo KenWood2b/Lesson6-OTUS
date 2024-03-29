@@ -28,7 +28,7 @@ namespace Animations.VFX
         {
             if (string.Equals(message, Death_event))
             {
-                vfx.Play(true);
+                Debug.Log("The player died");
             }
         }
     }

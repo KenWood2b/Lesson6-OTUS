@@ -32,7 +32,7 @@ namespace Animations.VFX
         {
             if (string.Equals(message, Fire_event))
             {
-                vfx.Play(true);
+                Debug.Log("The player fired");
             }
         }
     }

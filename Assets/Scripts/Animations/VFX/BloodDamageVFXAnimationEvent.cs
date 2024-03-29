@@ -29,7 +29,7 @@ namespace Animations.VFX
         {
             if (string.Equals(message, Damage_event))
             {
-                vfx.Play(true);
+                Debug.Log("The player take damage");
             }
         }
     }
